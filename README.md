@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # SmartMall — Digital Shopping Mall Platform
 
 SmartMall is a full-stack academic project that brings multiple stores and shopping departments together on one online platform. Customers can discover participating stores, browse products and offers, add products to a cart, and place orders. Shop owners have a separate seller workspace to manage their own store profile, products, stock, promotions, and order lines related to their products. Administrators manage the mall-wide directory and monitor the platform.
@@ -87,3 +88,6 @@ Suggested demo flow: open Home → explore departments → open the store direct
 - Backend environment variables: `DB_URL`, `DB_USER`, `DB_PASSWORD`, `JWT_SECRET`.
 
 For a public deployment, replace the demo JWT secret and configure database credentials using environment variables.
+=======
+# smart-mall
+>>>>>>> 3b303fff5d81b1c265d708485be2a276c5bf1c99

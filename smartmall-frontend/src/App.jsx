@@ -91,7 +91,7 @@ function StoreCard({store,index=0}){return <article className="store store-direc
 function Auth({mode}){
  const login=mode==='login'
  const initialType=new URLSearchParams(getPath().split('?')[1]||'').get('type')==='STORE_OWNER'?'STORE_OWNER':'CUSTOMER'
- const [form,setForm] = useState(login?{email:'',password:''}:{name:'',email:'',password:'',accountType:initialType})
+ const [f,setf] = useState(login?{email:'',password:''}:{name:'',email:'',password:'',accountType:initialType})
  const [e,setE]=useState(''),[busy,setBusy]=useState(false)
  const submit=async ev=>{
   ev.preventDefault();setE('');setBusy(true)
